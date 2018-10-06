@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/null_value_process
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    max-idle: 10
+    max-wait: 10000
+    min-idle: 5
+    initial-size: 5
+  jpa:
+    database: mysql
+    show-sql: true
+
+
+
+
+
+
+
+
+
+
+
